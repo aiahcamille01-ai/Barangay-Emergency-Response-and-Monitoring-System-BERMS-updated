@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Emergency Dashboard</title>
+
+<style>
+
+body{
+font-family:Arial;
+text-align:center;
+background:#fafafa;
+}
+
+button{
+padding:15px 30px;
+margin:20px;
+font-size:18px;
+cursor:pointer;
+}
+
+.fire{
+background:red;
+color:white;
+}
+
+.ambu{
+background:green;
+color:white;
+}
+
+.Brgy Tanods{
+background:white;
+color:orange;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Select Emergency Type</h1>
+
+<button class="fire" onclick="report('Fire')">Fire</button>
+
+<button class="ambu" onclick="report('Ambulance')">Ambulance</button>
+
+<button class="Brgy Tanods" onclick="report('Brgy Tanods')">Brgy Tanods </button>
+
+<script>
+
+function report(type){
+localStorage.setItem("emergencyType", type);
+window.location = "report.html";
+}
+
+</script>
+
+</body>
+</html>
