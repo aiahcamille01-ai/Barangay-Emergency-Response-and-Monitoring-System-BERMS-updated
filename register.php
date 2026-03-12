@@ -48,7 +48,7 @@ $row = $result->fetch_assoc();
 $_SESSION['email'] = $row['email'];
 $_SESSION['name'] = $row['firstName'];
 
-header("Location: homepage.php");
+header("Location: userpage1.php");
 exit();
 
 }else{
