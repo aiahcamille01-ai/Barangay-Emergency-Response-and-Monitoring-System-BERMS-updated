@@ -1,0 +1,11 @@
+{
+  "name": "berms",
+  "version": "1.0.0",
+  "description": "Barangay 171 Emergency Response System",
+  "scripts": {
+    "tailwind": "tailwindcss -i ./tailwind.css -o ./output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.0"
+  }
+}

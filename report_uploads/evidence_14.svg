@@ -1,0 +1,16 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+    <rect width="400" height="300" fill="#10b981"/>
+    <rect width="400" height="300" fill="#10b981" opacity="0.9"/>
+    <text x="200" y="120" font-size="48" text-anchor="middle" fill="white" font-family="Arial, sans-serif">
+        🚑
+    </text>
+    <text x="200" y="180" font-size="24" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold">
+        Evidence Photo #14
+    </text>
+    <text x="200" y="220" font-size="14" text-anchor="middle" fill="white" font-family="Arial, sans-serif" opacity="0.8">
+        Ambulance Emergency
+    </text>
+    <text x="200" y="260" font-size="12" text-anchor="middle" fill="white" font-family="Arial, sans-serif" opacity="0.6">
+        Barangay 171 Emergency Response System
+    </text>
+</svg>

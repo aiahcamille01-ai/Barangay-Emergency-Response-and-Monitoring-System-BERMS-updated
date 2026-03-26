@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("connect.php");
+include("../config/connect.php");
 
 
 /* REGISTER */
@@ -48,7 +48,7 @@ $row = $result->fetch_assoc();
 $_SESSION['email'] = $row['email'];
 $_SESSION['name'] = $row['firstName'];
 
-header("Location: userpage1.php");
+header("Location: ./userpage1.php");
 exit();
 
 }else{
